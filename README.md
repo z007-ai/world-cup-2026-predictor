@@ -61,6 +61,22 @@ C:\Users\<your-user>\.codex\skills\world-cup-2026-predictor
 
 Then restart Codex so it can discover the skill.
 
+### Install From GitHub
+
+If you use the Codex skill installer workflow, you can install this skill from GitHub with:
+
+```bash
+python ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py --repo z007-ai/world-cup-2026-predictor --path .
+```
+
+On Windows, that typically looks like:
+
+```powershell
+python $HOME\.codex\skills\.system\skill-installer\scripts\install-skill-from-github.py --repo z007-ai/world-cup-2026-predictor --path .
+```
+
+After installing, restart Codex to load the new skill.
+
 ## Forecasting Approach
 
 The skill uses a simple but disciplined process:
