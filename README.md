@@ -72,6 +72,35 @@ The skill uses a simple but disciplined process:
 5. Adjust for path difficulty and tournament variance.
 6. Produce a dated forecast with confidence and caveats.
 
+## Example Output
+
+Here is the kind of answer this skill is designed to generate:
+
+```markdown
+## 2026 World Cup Forecast
+
+As of 2026-05-29:
+
+- Predicted champion: France
+- Best challenger: Spain
+- Dark horses: Norway, Morocco
+- Possible disappointment: England
+
+### Why France
+- France combines elite top-end talent with strong squad depth.
+- Their knockout-match profile is strong because they can win in open games or tight games.
+- The coaching setup is proven in tournament football.
+- They have fewer obvious structural weaknesses than most contenders.
+
+### Main risks to this prediction
+- A difficult knockout path could swing the title race.
+- Late injuries to key attacking players would materially lower their ceiling.
+- Spain or Argentina could outperform them in control-heavy matchups.
+
+### Confidence
+Medium. France looks like the most complete title pick, but World Cup outcomes remain highly sensitive to draw path, injuries, and knockout variance.
+```
+
 ## Notes
 
 This skill is built for reasoned forecasting, not certainty. World Cup predictions can change meaningfully with injuries, final squads, draw changes, and late-form swings.
